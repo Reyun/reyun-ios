@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185F28951A4CF62900EE29B3 /* ChannelDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F28941A4CF62900EE29B3 /* ChannelDataBase.m */; };
+		18D174691A76028E003DB13F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1743F1A76028E003DB13F /* FMDatabase.m */; };
+		18D1746A1A76028E003DB13F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174411A76028E003DB13F /* FMDatabaseAdditions.m */; };
+		18D1746B1A76028E003DB13F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174431A76028E003DB13F /* FMDatabasePool.m */; };
+		18D1746C1A76028E003DB13F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174451A76028E003DB13F /* FMDatabaseQueue.m */; };
+		18D1746D1A76028E003DB13F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174471A76028E003DB13F /* FMResultSet.m */; };
+		18D1746F1A76028E003DB13F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1744E1A76028E003DB13F /* NSObject+SBJSON.m */; };
+		18D174701A76028E003DB13F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174501A76028E003DB13F /* NSString+SBJSON.m */; };
+		18D174711A76028E003DB13F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174521A76028E003DB13F /* SBJSON.m */; };
+		18D174721A76028E003DB13F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174541A76028E003DB13F /* SBJsonBase.m */; };
+		18D174731A76028E003DB13F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174561A76028E003DB13F /* SBJsonParser.m */; };
+		18D174741A76028E003DB13F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174581A76028E003DB13F /* SBJsonWriter.m */; };
+		18D174761A76028E003DB13F /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1745E1A76028E003DB13F /* SSKeychain.m */; };
+		18D174771A76028E003DB13F /* OpenUDIDSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174611A76028E003DB13F /* OpenUDIDSDK.m */; };
+		18D174781A76028E003DB13F /* Reachabilitysdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D174641A76028E003DB13F /* Reachabilitysdk.m */; };
+		C55EACDF1A41A236008F2BCE /* ReYunChannel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C55EACDE1A41A236008F2BCE /* ReYunChannel.h */; };
+		C55EACE11A41A236008F2BCE /* ReYunChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EACE01A41A236008F2BCE /* ReYunChannel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C55EACD91A41A236008F2BCE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C55EACDF1A41A236008F2BCE /* ReYunChannel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		185F28931A4CF62900EE29B3 /* ChannelDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelDataBase.h; sourceTree = "<group>"; };
+		185F28941A4CF62900EE29B3 /* ChannelDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelDataBase.m; sourceTree = "<group>"; };
+		18D1743E1A76028E003DB13F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		18D1743F1A76028E003DB13F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		18D174401A76028E003DB13F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		18D174411A76028E003DB13F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		18D174421A76028E003DB13F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		18D174431A76028E003DB13F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		18D174441A76028E003DB13F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		18D174451A76028E003DB13F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		18D174461A76028E003DB13F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		18D174471A76028E003DB13F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		18D1744C1A76028E003DB13F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		18D1744D1A76028E003DB13F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		18D1744E1A76028E003DB13F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		18D1744F1A76028E003DB13F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		18D174501A76028E003DB13F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		18D174511A76028E003DB13F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		18D174521A76028E003DB13F /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		18D174531A76028E003DB13F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		18D174541A76028E003DB13F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		18D174551A76028E003DB13F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		18D174561A76028E003DB13F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		18D174571A76028E003DB13F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		18D174581A76028E003DB13F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		18D1745D1A76028E003DB13F /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		18D1745E1A76028E003DB13F /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		18D174601A76028E003DB13F /* OpenUDIDSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDIDSDK.h; sourceTree = "<group>"; };
+		18D174611A76028E003DB13F /* OpenUDIDSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDIDSDK.m; sourceTree = "<group>"; };
+		18D174631A76028E003DB13F /* Reachabilitysdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachabilitysdk.h; sourceTree = "<group>"; };
+		18D174641A76028E003DB13F /* Reachabilitysdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachabilitysdk.m; sourceTree = "<group>"; };
+		C55EACDB1A41A236008F2BCE /* libReYunChannel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReYunChannel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55EACDE1A41A236008F2BCE /* ReYunChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReYunChannel.h; sourceTree = "<group>"; };
+		C55EACE01A41A236008F2BCE /* ReYunChannel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReYunChannel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55EACD81A41A236008F2BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D174391A76028E003DB13F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				18D1743D1A76028E003DB13F /* fmdb */,
+				18D1744B1A76028E003DB13F /* JSON */,
+				18D1745C1A76028E003DB13F /* keychain */,
+				18D1745F1A76028E003DB13F /* openudid */,
+				18D174621A76028E003DB13F /* reachability */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		18D1743D1A76028E003DB13F /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				18D1743E1A76028E003DB13F /* FMDatabase.h */,
+				18D1743F1A76028E003DB13F /* FMDatabase.m */,
+				18D174401A76028E003DB13F /* FMDatabaseAdditions.h */,
+				18D174411A76028E003DB13F /* FMDatabaseAdditions.m */,
+				18D174421A76028E003DB13F /* FMDatabasePool.h */,
+				18D174431A76028E003DB13F /* FMDatabasePool.m */,
+				18D174441A76028E003DB13F /* FMDatabaseQueue.h */,
+				18D174451A76028E003DB13F /* FMDatabaseQueue.m */,
+				18D174461A76028E003DB13F /* FMResultSet.h */,
+				18D174471A76028E003DB13F /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		18D1744B1A76028E003DB13F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				18D1744C1A76028E003DB13F /* JSON.h */,
+				18D1744D1A76028E003DB13F /* NSObject+SBJSON.h */,
+				18D1744E1A76028E003DB13F /* NSObject+SBJSON.m */,
+				18D1744F1A76028E003DB13F /* NSString+SBJSON.h */,
+				18D174501A76028E003DB13F /* NSString+SBJSON.m */,
+				18D174511A76028E003DB13F /* SBJSON.h */,
+				18D174521A76028E003DB13F /* SBJSON.m */,
+				18D174531A76028E003DB13F /* SBJsonBase.h */,
+				18D174541A76028E003DB13F /* SBJsonBase.m */,
+				18D174551A76028E003DB13F /* SBJsonParser.h */,
+				18D174561A76028E003DB13F /* SBJsonParser.m */,
+				18D174571A76028E003DB13F /* SBJsonWriter.h */,
+				18D174581A76028E003DB13F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		18D1745C1A76028E003DB13F /* keychain */ = {
+			isa = PBXGroup;
+			children = (
+				18D1745D1A76028E003DB13F /* SSKeychain.h */,
+				18D1745E1A76028E003DB13F /* SSKeychain.m */,
+			);
+			path = keychain;
+			sourceTree = "<group>";
+		};
+		18D1745F1A76028E003DB13F /* openudid */ = {
+			isa = PBXGroup;
+			children = (
+				18D174601A76028E003DB13F /* OpenUDIDSDK.h */,
+				18D174611A76028E003DB13F /* OpenUDIDSDK.m */,
+			);
+			path = openudid;
+			sourceTree = "<group>";
+		};
+		18D174621A76028E003DB13F /* reachability */ = {
+			isa = PBXGroup;
+			children = (
+				18D174631A76028E003DB13F /* Reachabilitysdk.h */,
+				18D174641A76028E003DB13F /* Reachabilitysdk.m */,
+			);
+			path = reachability;
+			sourceTree = "<group>";
+		};
+		C55EACD21A41A236008F2BCE = {
+			isa = PBXGroup;
+			children = (
+				C55EACDD1A41A236008F2BCE /* ReYunChannel */,
+				C55EACDC1A41A236008F2BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55EACDC1A41A236008F2BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55EACDB1A41A236008F2BCE /* libReYunChannel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55EACDD1A41A236008F2BCE /* ReYunChannel */ = {
+			isa = PBXGroup;
+			children = (
+				18D174391A76028E003DB13F /* lib */,
+				C55EACDE1A41A236008F2BCE /* ReYunChannel.h */,
+				C55EACE01A41A236008F2BCE /* ReYunChannel.m */,
+				185F28931A4CF62900EE29B3 /* ChannelDataBase.h */,
+				185F28941A4CF62900EE29B3 /* ChannelDataBase.m */,
+			);
+			path = ReYunChannel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55EACDA1A41A236008F2BCE /* ReYunChannel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55EACEF1A41A236008F2BCE /* Build configuration list for PBXNativeTarget "ReYunChannel" */;
+			buildPhases = (
+				C55EACD71A41A236008F2BCE /* Sources */,
+				C55EACD81A41A236008F2BCE /* Frameworks */,
+				C55EACD91A41A236008F2BCE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReYunChannel;
+			productName = ReYunChannel;
+			productReference = C55EACDB1A41A236008F2BCE /* libReYunChannel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55EACD31A41A236008F2BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = reyun;
+				TargetAttributes = {
+					C55EACDA1A41A236008F2BCE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C55EACD61A41A236008F2BCE /* Build configuration list for PBXProject "ReYunChannel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C55EACD21A41A236008F2BCE;
+			productRefGroup = C55EACDC1A41A236008F2BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55EACDA1A41A236008F2BCE /* ReYunChannel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55EACD71A41A236008F2BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D1746F1A76028E003DB13F /* NSObject+SBJSON.m in Sources */,
+				18D174741A76028E003DB13F /* SBJsonWriter.m in Sources */,
+				185F28951A4CF62900EE29B3 /* ChannelDataBase.m in Sources */,
+				18D1746B1A76028E003DB13F /* FMDatabasePool.m in Sources */,
+				18D174721A76028E003DB13F /* SBJsonBase.m in Sources */,
+				18D174781A76028E003DB13F /* Reachabilitysdk.m in Sources */,
+				18D174771A76028E003DB13F /* OpenUDIDSDK.m in Sources */,
+				C55EACE11A41A236008F2BCE /* ReYunChannel.m in Sources */,
+				18D1746C1A76028E003DB13F /* FMDatabaseQueue.m in Sources */,
+				18D174731A76028E003DB13F /* SBJsonParser.m in Sources */,
+				18D174711A76028E003DB13F /* SBJSON.m in Sources */,
+				18D174691A76028E003DB13F /* FMDatabase.m in Sources */,
+				18D1746D1A76028E003DB13F /* FMResultSet.m in Sources */,
+				18D174761A76028E003DB13F /* SSKeychain.m in Sources */,
+				18D1746A1A76028E003DB13F /* FMDatabaseAdditions.m in Sources */,
+				18D174701A76028E003DB13F /* NSString+SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C55EACED1A41A236008F2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55EACEE1A41A236008F2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55EACF01A41A236008F2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C55EACF11A41A236008F2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55EACD61A41A236008F2BCE /* Build configuration list for PBXProject "ReYunChannel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EACED1A41A236008F2BCE /* Debug */,
+				C55EACEE1A41A236008F2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55EACEF1A41A236008F2BCE /* Build configuration list for PBXNativeTarget "ReYunChannel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55EACF01A41A236008F2BCE /* Debug */,
+				C55EACF11A41A236008F2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55EACD31A41A236008F2BCE /* Project object */;
+}
