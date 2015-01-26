@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D584086C-07BA-419A-8927-7AF2F7579DBF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>reyun</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29DAEF21FC30C4D4107E5CC9602DC4CD8EF7D127</key>
+		<string>https://github.com/haiyou/reyun-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>reyun.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29DAEF21FC30C4D4107E5CC9602DC4CD8EF7D127</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/haiyou/reyun-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29DAEF21FC30C4D4107E5CC9602DC4CD8EF7D127</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29DAEF21FC30C4D4107E5CC9602DC4CD8EF7D127</string>
+			<key>IDESourceControlWCCName</key>
+			<string>reyun</string>
+		</dict>
+	</array>
+</dict>
+</plist>

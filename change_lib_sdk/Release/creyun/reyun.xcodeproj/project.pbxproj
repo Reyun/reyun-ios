@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185ADCFC1A5E3AC2000465B5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCD41A5E3AC2000465B5 /* FMDatabaseAdditions.m */; };
+		185ADCFD1A5E3AC2000465B5 /* RYFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCD61A5E3AC2000465B5 /* RYFMDatabase.m */; };
+		185ADCFE1A5E3AC2000465B5 /* RYFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCD81A5E3AC2000465B5 /* RYFMDatabasePool.m */; };
+		185ADCFF1A5E3AC2000465B5 /* RYFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCDA1A5E3AC2000465B5 /* RYFMDatabaseQueue.m */; };
+		185ADD001A5E3AC2000465B5 /* RYFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCDC1A5E3AC2000465B5 /* RYFMResultSet.m */; };
+		185ADD011A5E3AC2000465B5 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCE11A5E3AC2000465B5 /* NSObject+SBJSON.m */; };
+		185ADD021A5E3AC2000465B5 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCE31A5E3AC2000465B5 /* NSString+SBJSON.m */; };
+		185ADD031A5E3AC2000465B5 /* RYSBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCE51A5E3AC2000465B5 /* RYSBJSON.m */; };
+		185ADD041A5E3AC2000465B5 /* RYSBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCE71A5E3AC2000465B5 /* RYSBJsonBase.m */; };
+		185ADD051A5E3AC2000465B5 /* RYSBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCE91A5E3AC2000465B5 /* RYSBJsonParser.m */; };
+		185ADD061A5E3AC2000465B5 /* RYSBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCEB1A5E3AC2000465B5 /* RYSBJsonWriter.m */; };
+		185ADD081A5E3AC2000465B5 /* RYSSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCF11A5E3AC2000465B5 /* RYSSKeychain.m */; };
+		185ADD091A5E3AC2000465B5 /* OpenUDIDSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCF41A5E3AC2000465B5 /* OpenUDIDSDK.m */; };
+		185ADD0A1A5E3AC2000465B5 /* RYReachabilitysdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ADCF71A5E3AC2000465B5 /* RYReachabilitysdk.m */; };
+		A6069F0218F65727000E28F6 /* reyun.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6069F0118F65727000E28F6 /* reyun.h */; };
+		A6069F0418F65727000E28F6 /* reyun.m in Sources */ = {isa = PBXBuildFile; fileRef = A6069F0318F65727000E28F6 /* reyun.m */; };
+		A61753691900D34D00C170EA /* reyun.h in Sources */ = {isa = PBXBuildFile; fileRef = A6069F0118F65727000E28F6 /* reyun.h */; };
+		A617536A1900D34D00C170EA /* RYDataBase.h in Sources */ = {isa = PBXBuildFile; fileRef = A6069F3518F67041000E28F6 /* RYDataBase.h */; };
+		A617536B1900D34D00C170EA /* RYDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6069F3618F67041000E28F6 /* RYDataBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6069EF718F65727000E28F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A6069F0218F65727000E28F6 /* reyun.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		185ADCD31A5E3AC2000465B5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		185ADCD41A5E3AC2000465B5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		185ADCD51A5E3AC2000465B5 /* RYFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFMDatabase.h; sourceTree = "<group>"; };
+		185ADCD61A5E3AC2000465B5 /* RYFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFMDatabase.m; sourceTree = "<group>"; };
+		185ADCD71A5E3AC2000465B5 /* RYFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFMDatabasePool.h; sourceTree = "<group>"; };
+		185ADCD81A5E3AC2000465B5 /* RYFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFMDatabasePool.m; sourceTree = "<group>"; };
+		185ADCD91A5E3AC2000465B5 /* RYFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFMDatabaseQueue.h; sourceTree = "<group>"; };
+		185ADCDA1A5E3AC2000465B5 /* RYFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFMDatabaseQueue.m; sourceTree = "<group>"; };
+		185ADCDB1A5E3AC2000465B5 /* RYFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYFMResultSet.h; sourceTree = "<group>"; };
+		185ADCDC1A5E3AC2000465B5 /* RYFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYFMResultSet.m; sourceTree = "<group>"; };
+		185ADCDF1A5E3AC2000465B5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		185ADCE01A5E3AC2000465B5 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		185ADCE11A5E3AC2000465B5 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		185ADCE21A5E3AC2000465B5 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		185ADCE31A5E3AC2000465B5 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		185ADCE41A5E3AC2000465B5 /* RYSBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSBJSON.h; sourceTree = "<group>"; };
+		185ADCE51A5E3AC2000465B5 /* RYSBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSBJSON.m; sourceTree = "<group>"; };
+		185ADCE61A5E3AC2000465B5 /* RYSBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSBJsonBase.h; sourceTree = "<group>"; };
+		185ADCE71A5E3AC2000465B5 /* RYSBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSBJsonBase.m; sourceTree = "<group>"; };
+		185ADCE81A5E3AC2000465B5 /* RYSBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSBJsonParser.h; sourceTree = "<group>"; };
+		185ADCE91A5E3AC2000465B5 /* RYSBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSBJsonParser.m; sourceTree = "<group>"; };
+		185ADCEA1A5E3AC2000465B5 /* RYSBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSBJsonWriter.h; sourceTree = "<group>"; };
+		185ADCEB1A5E3AC2000465B5 /* RYSBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSBJsonWriter.m; sourceTree = "<group>"; };
+		185ADCF01A5E3AC2000465B5 /* RYSSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSSKeychain.h; sourceTree = "<group>"; };
+		185ADCF11A5E3AC2000465B5 /* RYSSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSSKeychain.m; sourceTree = "<group>"; };
+		185ADCF31A5E3AC2000465B5 /* OpenUDIDSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDIDSDK.h; sourceTree = "<group>"; };
+		185ADCF41A5E3AC2000465B5 /* OpenUDIDSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDIDSDK.m; sourceTree = "<group>"; };
+		185ADCF61A5E3AC2000465B5 /* RYReachabilitysdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYReachabilitysdk.h; sourceTree = "<group>"; };
+		185ADCF71A5E3AC2000465B5 /* RYReachabilitysdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYReachabilitysdk.m; sourceTree = "<group>"; };
+		A6069EF918F65727000E28F6 /* libreyun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreyun.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6069EFC18F65727000E28F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6069F0018F65727000E28F6 /* reyun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reyun-Prefix.pch"; sourceTree = "<group>"; };
+		A6069F0118F65727000E28F6 /* reyun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reyun.h; sourceTree = "<group>"; };
+		A6069F0318F65727000E28F6 /* reyun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reyun.m; sourceTree = "<group>"; };
+		A6069F3518F67041000E28F6 /* RYDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYDataBase.h; sourceTree = "<group>"; };
+		A6069F3618F67041000E28F6 /* RYDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYDataBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6069EF618F65727000E28F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185ADCCE1A5E3AC2000465B5 /* RYlib */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCD21A5E3AC2000465B5 /* fmdb */,
+				185ADCDE1A5E3AC2000465B5 /* JSON */,
+				185ADCEF1A5E3AC2000465B5 /* keychain */,
+				185ADCF21A5E3AC2000465B5 /* openudid */,
+				185ADCF51A5E3AC2000465B5 /* reachability */,
+			);
+			path = RYlib;
+			sourceTree = "<group>";
+		};
+		185ADCD21A5E3AC2000465B5 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCD31A5E3AC2000465B5 /* FMDatabaseAdditions.h */,
+				185ADCD41A5E3AC2000465B5 /* FMDatabaseAdditions.m */,
+				185ADCD51A5E3AC2000465B5 /* RYFMDatabase.h */,
+				185ADCD61A5E3AC2000465B5 /* RYFMDatabase.m */,
+				185ADCD71A5E3AC2000465B5 /* RYFMDatabasePool.h */,
+				185ADCD81A5E3AC2000465B5 /* RYFMDatabasePool.m */,
+				185ADCD91A5E3AC2000465B5 /* RYFMDatabaseQueue.h */,
+				185ADCDA1A5E3AC2000465B5 /* RYFMDatabaseQueue.m */,
+				185ADCDB1A5E3AC2000465B5 /* RYFMResultSet.h */,
+				185ADCDC1A5E3AC2000465B5 /* RYFMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		185ADCDE1A5E3AC2000465B5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCDF1A5E3AC2000465B5 /* JSON.h */,
+				185ADCE01A5E3AC2000465B5 /* NSObject+SBJSON.h */,
+				185ADCE11A5E3AC2000465B5 /* NSObject+SBJSON.m */,
+				185ADCE21A5E3AC2000465B5 /* NSString+SBJSON.h */,
+				185ADCE31A5E3AC2000465B5 /* NSString+SBJSON.m */,
+				185ADCE41A5E3AC2000465B5 /* RYSBJSON.h */,
+				185ADCE51A5E3AC2000465B5 /* RYSBJSON.m */,
+				185ADCE61A5E3AC2000465B5 /* RYSBJsonBase.h */,
+				185ADCE71A5E3AC2000465B5 /* RYSBJsonBase.m */,
+				185ADCE81A5E3AC2000465B5 /* RYSBJsonParser.h */,
+				185ADCE91A5E3AC2000465B5 /* RYSBJsonParser.m */,
+				185ADCEA1A5E3AC2000465B5 /* RYSBJsonWriter.h */,
+				185ADCEB1A5E3AC2000465B5 /* RYSBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		185ADCEF1A5E3AC2000465B5 /* keychain */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCF01A5E3AC2000465B5 /* RYSSKeychain.h */,
+				185ADCF11A5E3AC2000465B5 /* RYSSKeychain.m */,
+			);
+			path = keychain;
+			sourceTree = "<group>";
+		};
+		185ADCF21A5E3AC2000465B5 /* openudid */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCF31A5E3AC2000465B5 /* OpenUDIDSDK.h */,
+				185ADCF41A5E3AC2000465B5 /* OpenUDIDSDK.m */,
+			);
+			path = openudid;
+			sourceTree = "<group>";
+		};
+		185ADCF51A5E3AC2000465B5 /* reachability */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCF61A5E3AC2000465B5 /* RYReachabilitysdk.h */,
+				185ADCF71A5E3AC2000465B5 /* RYReachabilitysdk.m */,
+			);
+			path = reachability;
+			sourceTree = "<group>";
+		};
+		A6069EF018F65727000E28F6 = {
+			isa = PBXGroup;
+			children = (
+				A6069EFE18F65727000E28F6 /* reyun */,
+				A6069EFB18F65727000E28F6 /* Frameworks */,
+				A6069EFA18F65727000E28F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6069EFA18F65727000E28F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6069EF918F65727000E28F6 /* libreyun.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6069EFB18F65727000E28F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6069EFC18F65727000E28F6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6069EFE18F65727000E28F6 /* reyun */ = {
+			isa = PBXGroup;
+			children = (
+				185ADCCE1A5E3AC2000465B5 /* RYlib */,
+				A6069F0118F65727000E28F6 /* reyun.h */,
+				A6069F0318F65727000E28F6 /* reyun.m */,
+				A6069F3518F67041000E28F6 /* RYDataBase.h */,
+				A6069F3618F67041000E28F6 /* RYDataBase.m */,
+				A6069EFF18F65727000E28F6 /* Supporting Files */,
+			);
+			path = reyun;
+			sourceTree = "<group>";
+		};
+		A6069EFF18F65727000E28F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6069F0018F65727000E28F6 /* reyun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6069EF818F65727000E28F6 /* reyun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6069F0718F65727000E28F6 /* Build configuration list for PBXNativeTarget "reyun" */;
+			buildPhases = (
+				A6069EF518F65727000E28F6 /* Sources */,
+				A6069EF618F65727000E28F6 /* Frameworks */,
+				A6069EF718F65727000E28F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reyun;
+			productName = reyun;
+			productReference = A6069EF918F65727000E28F6 /* libreyun.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6069EF118F65727000E28F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "li tao";
+			};
+			buildConfigurationList = A6069EF418F65727000E28F6 /* Build configuration list for PBXProject "reyun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6069EF018F65727000E28F6;
+			productRefGroup = A6069EFA18F65727000E28F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6069EF818F65727000E28F6 /* reyun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6069EF518F65727000E28F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185ADD051A5E3AC2000465B5 /* RYSBJsonParser.m in Sources */,
+				185ADD061A5E3AC2000465B5 /* RYSBJsonWriter.m in Sources */,
+				A61753691900D34D00C170EA /* reyun.h in Sources */,
+				185ADD041A5E3AC2000465B5 /* RYSBJsonBase.m in Sources */,
+				185ADCFF1A5E3AC2000465B5 /* RYFMDatabaseQueue.m in Sources */,
+				185ADD001A5E3AC2000465B5 /* RYFMResultSet.m in Sources */,
+				185ADD0A1A5E3AC2000465B5 /* RYReachabilitysdk.m in Sources */,
+				185ADCFE1A5E3AC2000465B5 /* RYFMDatabasePool.m in Sources */,
+				185ADD011A5E3AC2000465B5 /* NSObject+SBJSON.m in Sources */,
+				185ADD081A5E3AC2000465B5 /* RYSSKeychain.m in Sources */,
+				185ADD091A5E3AC2000465B5 /* OpenUDIDSDK.m in Sources */,
+				A617536A1900D34D00C170EA /* RYDataBase.h in Sources */,
+				A617536B1900D34D00C170EA /* RYDataBase.m in Sources */,
+				A6069F0418F65727000E28F6 /* reyun.m in Sources */,
+				185ADD031A5E3AC2000465B5 /* RYSBJSON.m in Sources */,
+				185ADCFD1A5E3AC2000465B5 /* RYFMDatabase.m in Sources */,
+				185ADD021A5E3AC2000465B5 /* NSString+SBJSON.m in Sources */,
+				185ADCFC1A5E3AC2000465B5 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6069F0518F65727000E28F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6069F0618F65727000E28F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6069F0818F65727000E28F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/reyun.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reyun/reyun-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/apple/Desktop,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6069F0918F65727000E28F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/reyun.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "reyun/reyun-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/apple/Desktop,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6069EF418F65727000E28F6 /* Build configuration list for PBXProject "reyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6069F0518F65727000E28F6 /* Debug */,
+				A6069F0618F65727000E28F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6069F0718F65727000E28F6 /* Build configuration list for PBXNativeTarget "reyun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6069F0818F65727000E28F6 /* Debug */,
+				A6069F0918F65727000E28F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6069EF118F65727000E28F6 /* Project object */;
+}
